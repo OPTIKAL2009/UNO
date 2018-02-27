@@ -2,7 +2,7 @@ from random import shuffle, choice
 from itertools import product, repeat, chain
 
 import gettext
-gettext.install('russian', '../locale')
+gettext.install('russian', './locale')
 
 COLORS = ['red', 'yellow', 'green', 'blue']
 ALL_COLORS = COLORS + ['black']
